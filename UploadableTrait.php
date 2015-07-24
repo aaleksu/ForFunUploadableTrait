@@ -125,7 +125,7 @@ trait UploadableTrait
 
     public function getWebPath($prop)
     {
-        foreach ($this->uploadableProperties as $uploadableProp) {
+        foreach ($this->uploadableProperties() as $uploadableProp) {
             if($prop == $uploadableProp) {
                 return null === $this->{$uploadableProp}
                     ? null
