@@ -1,6 +1,6 @@
 <?php
 
-namespace Superkassa\DefaultBundle\Entity\EntityTraits;
+namespace AppBundle\Entity\EntityTraits;
 
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 
