@@ -1,0 +1,13 @@
+{
+    "name": "forfun/uploadable",
+    "description": "Uploadable trait to manage uploadable properties",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Alex Anisimov",
+            "email": "a.aleksu+github@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

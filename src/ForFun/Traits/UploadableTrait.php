@@ -1,12 +1,7 @@
 <?php
 
-namespace AppBundle\Entity\EntityTraits;
+namespace ForFun\Traits;
 
-use Symfony\Component\HttpFoundation\File\UploadedFile;
-
-/*
- * @ORM\HasLifecycleCallbacks
- */
 trait UploadableTrait
 {
     private $file;
