@@ -1,6 +1,6 @@
 <?php
 
-namespace ForFun\Traits;
+namespace ForFun\Uploadable\Traits;
 
 trait UploadableTrait
 {
