@@ -1,6 +1,7 @@
 {
     "name": "forfun/uploadable",
     "description": "Uploadable trait to manage uploadable properties",
+    "keywords": ["files uploading"],
     "type": "library",
     "authors": [
         {
@@ -8,6 +9,5 @@
             "email": "a.aleksu+github@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {}
 }
