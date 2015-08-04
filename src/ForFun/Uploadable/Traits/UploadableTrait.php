@@ -113,7 +113,7 @@ trait UploadableTrait
             if($prop == $uploadableProp) {
                 return null === $this->{$uploadableProp}
                     ? null
-                    : $this->getUploadRootDir() . '/' . $this->{$uploadableProp};
+                    : '/' . $this->getUploadRootDir() . '/' . $this->{$uploadableProp};
             }
         }
     }
@@ -124,7 +124,7 @@ trait UploadableTrait
             if($prop == $uploadableProp) {
                 return null === $this->{$uploadableProp}
                     ? null
-                    : $this->getUploadDir() . '/' . $this->{$uploadableProp};
+                    : '/' . $this->getUploadDir() . '/' . $this->{$uploadableProp};
             }
         }
     }
