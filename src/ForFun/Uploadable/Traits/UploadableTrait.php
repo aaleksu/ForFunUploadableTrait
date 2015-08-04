@@ -131,6 +131,9 @@ trait UploadableTrait
 
     protected function getUploadRootDir()
     {
-        return __DIR__ . '/../../../../../web/' . $this->getUploadDir();
+        $reflection = new \ReflectionClass(__CLASS__);
+        $webDir = dirname($reflection->getFileName()) . '/../../../../web/';
+
+        return $webDir . $this->getUploadDir();
     }
 }
