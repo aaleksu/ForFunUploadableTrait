@@ -14,7 +14,7 @@ trait UploadableTrait
 
     public function __get($name)
     {
-        return $this->__call('get' , ucfirst($name));
+        return $this->__call('get' . ucfirst($name), []);
     }
 
     public function __set($name, $arg)
