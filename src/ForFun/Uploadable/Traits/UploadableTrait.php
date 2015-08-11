@@ -74,7 +74,7 @@ trait UploadableTrait
     {
         foreach ($this->uploadableProperties() as $uploadableProp) {
             if (null === $this->{$uploadableProp . 'File'}) {
-                return;
+                continue;
             }
 
             // if there is an error when moving the file, an exception will
